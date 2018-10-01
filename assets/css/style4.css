@@ -1,0 +1,252 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+#navfixed{
+	z-index: 1;
+	position: fixed;
+
+	width: 100%;
+	background-color: #99b3ff;
+
+}
+
+.navbar-brand{
+	font-size: 30px;
+}
+
+.dropdown-menu {
+	background-color: #99b3ff;
+}
+
+.row {
+	width: 100%;
+}
+
+div ul li {
+	list-style: none;
+	font-size: 20px;
+	font-color: white;
+}
+
+h3 small a {
+	color: black;
+}
+
+li a {
+	font-color: white;
+}
+
+/*.blank {
+	height: 100px;
+}*/
+
+img[alt*="social"]{
+	width: 40px;
+	height: 40px;
+	display: block;
+	float: left;
+}
+
+.me {
+	border: solid 3px lightblue;
+}
+
+.picture {
+	padding-top: 20%;
+}
+
+body {
+	background-image: url(../images/bg-5.jpg);
+	background-size: cover;
+	min-height: 700px;
+}
+
+#aboutme {
+	height: 75px;
+}
+
+a, div {
+font-family: 'Varela Round', sans-serif;
+color: white;
+}
+
+.navpic {
+	height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+	.navpic {
+		height: 300px;
+	}
+} 
+
+
+@media only screen and (min-width: 600px) {
+	.navpic {
+		height: 300px;
+	}
+} 
+
+@media only screen and (min-width:  992px) {
+		.navpic {
+		height: 100vh;
+	}
+} 
+/*
+
+@media only screen and (max-width: 768px) {
+	#aboutme {
+		margin-top: -650px;
+
+	}
+}
+
+@media only screen (max-width: 600px){
+	#aboutme {
+		margin-top: 1050px;
+		background-color: black;
+	}
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*desktop*/
+/*@media only screen and (min-width: 961px) {
+.bg {
+	background-image: url(../images/bg3.jpg);
+	background-size: cover;
+	min-height: 700px;
+}
+
+#aboutme {
+	height: 100px;
+}
+
+.me {
+	height: 45%;
+	border: solid 3px lightblue;
+	width: 45%;
+	margin-left: 29%;
+	margin-top:10%;
+	border-width:20px;  
+}*/
+
+/*tablets*/
+/*@media only screen and (min-width: 416px) and (max-width: 960px){
+.bg {
+	background-image: url(../images/bg3.jpg);
+	background-size: cover;
+	min-height: 700px;
+}
+
+#aboutme {
+	height: 100px;
+}
+
+.me {
+	height: 25%;
+	border: solid 3px lightblue;
+	width: 2545;
+	margin-left: 17%;
+	margin-top:10%;
+	border-width:20px;  
+}*/
+/*mobile*/
+@media only screen and (max-width: 415px) {
+	body {
+		margin-right: 
+	}
+}
+
+
+/*.bg {
+	background-image: url(../images/bg3.jpg);		
+	background-size: cover;
+	min-height: 500px;
+}
+
+#aboutme {
+	height: 100px;
+}
+
+.me {
+	height: 60%;
+	border: solid 3px lightblue;
+	width: 60%;
+	margin-left: 24%;
+	margin-top:30%;
+	border-width:20px;  
+}
+
+#comment {
+	width:300px;
+}*/

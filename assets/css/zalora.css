@@ -1,0 +1,51 @@
+* {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+ 
+body {
+	background-image: url(../images/zalora3.jpg);
+	/*background-color: green;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-attachment: fixed;	
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+a, p, h3, h2 {
+	font-family: "Montserrat", sans-serif
+}
+
+.weshop{
+	font-size: 50px;
+	font: bold;
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 15px;
+}
+
+.nav-text {
+	font-size: 25px;
+	color: solid black;
+}
+
+.navbar {
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 15px;
+}
+
+footer {
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 15px;
+}

@@ -1,0 +1,56 @@
+
+body {
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-attachment: fixed;	
+}
+
+h1 {
+	color: black;
+	font-size: 50px;
+	font-weight: normal;
+	margin-bottom: 0;
+	font-family: 'Anton', sans-serif;
+	
+}
+
+h2 {
+	color: black;
+	font-size: 30px;
+	margin-top: 0;
+	font-family: 'IM Fell English SC', serif;
+}
+
+.bio {
+	color: white;
+	font-size: 30px;
+	font-family: 'IM Fell English SC', serif;
+}
+
+
+.me {
+	height: 245px;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: white;
+	margin-top: 100px;
+}
+
+.about{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.about2{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}

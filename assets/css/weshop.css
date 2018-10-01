@@ -1,0 +1,58 @@
+* {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+ 
+body {
+	background-image: url(../images/online-shopping.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-attachment: fixed;	
+}
+/*.weshop, .lazada, .shopee, .takatack {
+	height: 50px;
+	width: 100px;
+	background-color: black;
+}*/
+
+/*.navbar {
+		background-color: orange;
+}*/
+
+.nav-text {
+	font-size: 25px;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+a, p, h3, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+div h2 {
+	background-color: white;
+	height: 40px;
+	width: 100%;
+	border-radius: 50px;
+}
+
+.lorem {
+	background-color: white;
+	height: 300px;
+	width: 100%;
+	border-radius: 20px;
+}
+
+footer {
+	background-color: white;
+}
+
+
