@@ -7,14 +7,26 @@
 #navfixed{
 	z-index: 1;
 	position: fixed;
-
 	width: 100%;
 	background-color: #99b3ff;
 
 }
 
+.progpic {
+	height: 100px;
+	width: 100px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
 .navbar-brand{
 	font-size: 30px;
+}
+
+.navbar-brand {
+	font-family: 'Notable', sans-serif;
+	font-size: 35px;
+	margin-top: -10px;
 }
 
 .dropdown-menu {
@@ -24,6 +36,7 @@
 .row {
 	width: 100%;
 }
+
 
 div ul li {
 	list-style: none;
@@ -38,6 +51,7 @@ h3 small a {
 li a {
 	font-color: white;
 }
+
 
 /*.blank {
 	height: 100px;
@@ -68,9 +82,13 @@ body {
 	height: 75px;
 }
 
-a, div {
+.nav-link, h1, h2, h3, h4, h5, h6 {
 font-family: 'Varela Round', sans-serif;
 color: white;
+}
+
+h1	{
+	color: black;
 }
 
 .navpic {
